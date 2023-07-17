@@ -3,6 +3,8 @@ const{MongoClient}=require('mongodb')
 const uri = 'mongodb+srv://rafiyathanvir:Rafiya1997@cluster0.xmi1ban.mongodb.net/';
 const dbName = 'test';
 const collectionName = 'meals';
+const orderHistoryCollectionName = 'orderHistory';
+
 
 
 const client = new MongoClient(uri, { useUnifiedTopology: true });
